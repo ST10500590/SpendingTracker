@@ -243,6 +243,12 @@ class MainActivity : Activity() {
         layout.gravity = Gravity.CENTER
         layout.setBackgroundColor(navy)
 
+        val icon = TextView(this).apply {
+            text = "💰"
+            textSize = 140f
+            gravity = Gravity.CENTER
+        }
+
         val title = TextView(this).apply {
             text = "SPENDING TRACKER"
             textSize = 80f

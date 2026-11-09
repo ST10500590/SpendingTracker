@@ -245,7 +245,7 @@ class MainActivity : Activity() {
 
         val title = TextView(this).apply {
             text = "SPENDING TRACKER"
-            textSize = 30f
+            textSize = 80f
             typeface = Typeface.DEFAULT_BOLD
             setTextColor(gold)
             gravity = Gravity.CENTER
